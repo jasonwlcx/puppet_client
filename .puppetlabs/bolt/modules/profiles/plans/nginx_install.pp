@@ -1,6 +1,6 @@
 plan profiles::nginx_install(
   TargetSpec $nodes,
-  String $site_content = 'hello world - thanks puppet!',
+  String $site_content = 'hello world - thanks puppet bolt plans!',
 ) {
   # Install puppet on the target and gather facts
   $nodes.apply_prep
